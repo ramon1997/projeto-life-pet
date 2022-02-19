@@ -1,0 +1,27 @@
+@charset="UTF-8";
+
+div.menu{
+		width:1200px;
+		height:75px;
+		background-color: green;
+	}
+
+	div.menu img{
+		width: 100px;
+		height: 100px;
+		align-content: center;
+	}
+
+	div.links{
+		width: 500px;
+		height: 75px;
+		text-align: right;
+		margin-top: -80px;
+		margin-left: 650px;
+	}
+
+	div.links a{
+		text-decoration: none;
+		color: white;
+		margin-left: 20px;
+	}

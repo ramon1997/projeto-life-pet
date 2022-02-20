@@ -6,6 +6,14 @@ div.menu{
 		background-color: green;
 	}
 
+	div.menu h1{
+		font-size: 20pt;
+		margin-left: 85px;
+		margin-top: -60px;
+		font-family:times;
+		color: white;
+	}
+
 	div.menu img{
 		width: 100px;
 		height: 100px;
@@ -13,15 +21,29 @@ div.menu{
 	}
 
 	div.links{
-		width: 500px;
+		width: 200px;
 		height: 75px;
-		text-align: right;
-		margin-top: -80px;
-		margin-left: 650px;
+		margin-top: -93px;
+		margin-left: 1000px;
+		display: inline;
+		position: absolute;
+	}
+
+	div.links:hover{
+		background-color: #00a000;
+	}
+
+	nav.links{
+		margin-top: 25px;
+		margin-left: 25px;
 	}
 
 	div.links a{
 		text-decoration: none;
 		color: white;
-		margin-left: 20px;
+		margin-left: 15px;
+	}
+
+	div.links a:hover{
+		color: #cccccc;
 	}
